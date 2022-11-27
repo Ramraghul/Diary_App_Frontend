@@ -56,7 +56,7 @@ function Login() {
 
           }
         } else {
-          alert(loginData.data.message);
+          alert(loginData.data.msg);
         }
       } catch (error) {
           Toast.fire({ icon: 'error', title: `${error.response.data.msg}` })

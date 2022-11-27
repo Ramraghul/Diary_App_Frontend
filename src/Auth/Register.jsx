@@ -33,7 +33,7 @@ function Register() {
 
         navigate("/");
       } catch (error) {
-        alert(error.response.messsage);
+        alert(error.response.msg);
         console.log(error);
       }
     },
