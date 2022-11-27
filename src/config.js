@@ -1,3 +1,3 @@
 export const env ={
-     api :"http://localhost:7000"
+     api :"https://diary-app-backend-roan.vercel.app"
 }
